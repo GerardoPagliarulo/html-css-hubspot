@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* .wrapper {
+  height: 80px;
+}
+
+.child {
+  border: 1px solid black;
+}
+
+.float-left {
+  float: left;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+ */
+
+/* Utilities */
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn-white {
+  color: #ff7a59;
+  margin: 0 20px;
+  padding: 0 10px;
+  line-height: 40px;
+  border: 2px solid #ff7a59;
+  border-radius: 9px;
+  background: #fff;
+}
+
+.btn-orange {
+  color: #fff;
+  /* margin: 0 10px; */
+  padding: 0 10px;
+  line-height: 45px;
+  border-radius: 9px;
+  background: #ff7a59;
+  text-decoration: none;
+}
+
+/* .w-50 {
+  width: 50%;
+} */
+
+/* HEADER*/
+/* First Menu */
+#first-main-menu {
+  height: 80px;
+  background: #f5f8fa;
+  border-bottom: 1px solid #000;
+  z-index: 5;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.first-header-menu {
+  line-height: 80px;
+}
+
+.first-header-menu .menu-language,
+.first-header-menu .menu-search {
+  float: left;
+}
+
+.menu-language {
+  display: inline-block;
+  width: 50%;
+}
+
+.menu-language ul li {
+  display: inline-block;
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: #888;
+}
+
+.line-details {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.menu-search {
+  display: inline-block;
+  width: 50%;
+}
+
+.menu-search ul {
+  line-height: 80px;
+  text-align: right;
+}
+
+.menu-search ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.btn-search {
+  color: #2eb4c9;
+}
+
+/* Second Menu */
+#second-main-menu {
+  margin-top: 80px;
+  height: 100px;
+  background: #fff;
+}
+
+.second-header-menu {
+  line-height: 120px;
+}
+
+.second-header-menu .menu-logo,
+.second-header-menu .menu-selectors {
+  /* display: inline-block; */
+  float: left;
+}
+
+.menu-logo {
+  display: inline-block;
+  width: 50%;
+}
+
+.menu-selectors {
+  display: inline-block;
+  width: 50%;
+}
+
+.menu-selectors {
+  line-height: 100px;
+  text-align: right;
+}
+
+.menu-selectors ul li {
+  list-style: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+  color: #888;
+}
+
+.menu-selectors ul li i {
+  margin-left: 10px;
+  margin-right: 18px;
+}
+
+.pricing-detail {
+  padding-right: 18px;
+}
+
+.principal-list .about-detail i {
+  margin-right: 0;
+}
+
+/* Jumbotron */
+.background-image {
+  height: 850px;
+  background-image: url('../image/jumbotron.png');
+  background-size: 2055px;
+  background-repeat: no-repeat;
+  background-position: 80% 18%;
+}
+
+.jumbotron {
+  position: relative;
+  height: 350px;
+}
+
+.jumbotron-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 50%;
+}
+
+.jumbotron-text h1 {
+  font-size: 60px;
+  color: #374e66;
+  margin-top: 200px;
+}
+
+.jumbotron-text p {
+  line-height: 35px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #374e66;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.jumbotron-text p:nth-child(4) {
+  font-size: 13px;
+}
+
+.btn-image {
+  padding: 20px;
+}
+
+/* Strip Under the Background Image */
+.header-strip {
+  height: 80px;
+  background: #aeebe4;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+
+/* SECTION */
+/* Main Section */
+.main-section {
+  height: 1500px;
+  background: #f5f8fa;
+}
+
+/* Primo Articolo */
+.first-article {
+  text-align: center;
+}
+
+.first-article img {
+  margin-top: 70px;
+  height: 280px;
+}
+
+.first-article h2 {
+  color: #374e66;
+  font-size: 45px;
+  margin-bottom: 35px;
+}
+
+.first-article p {
+  color: #374e66;
+  font-size: 18px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+/* Secondo Articolo */
+.second-article {
+  height: 350px;
+  background: #fff;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  box-shadow: 6px 6px #555;
+}
+
+.third-article .first-cln,
+.third-article .second-cln,
+.third-article .third-cln {
+  float: left;
+}
+
+.first-column,
+.secon-column,
+.three-column {
+width: calc(100% / 3)
+}
