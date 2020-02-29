@@ -120,9 +120,9 @@ body {
   background: #fff;
 }
 
-.second-header-menu {
+/* .second-header-menu {
   line-height: 120px;
-}
+} */
 
 .second-header-menu .menu-logo,
 .second-header-menu .menu-selectors {
@@ -132,6 +132,8 @@ body {
 .menu-logo {
   display: inline-block;
   width: 50%;
+  line-height: 100px;
+  margin-top: 9px;
 }
 
 .menu-selectors {
