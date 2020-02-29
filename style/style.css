@@ -137,12 +137,14 @@ body {
 .menu-selectors {
   display: inline-block;
   width: 50%;
-}
-
-.menu-selectors {
   line-height: 100px;
   text-align: right;
 }
+
+/* .menu-selectors {
+  line-height: 100px;
+  text-align: right;
+} */
 
 .menu-selectors ul li {
   list-style: none;
@@ -171,12 +173,12 @@ body {
   background-image: url('../image/jumbotron.png');
   background-size: 2055px;
   background-repeat: no-repeat;
-  background-position: 80% 18%;
+  background-position: 50% 18%;
 }
 
 .jumbotron {
   position: relative;
-  height: 350px;
+  height: 400px;
 }
 
 .jumbotron-text {
