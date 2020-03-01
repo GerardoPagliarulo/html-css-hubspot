@@ -52,6 +52,14 @@ body {
   width: 50%;
 } */
 
+.float {
+  float: left;
+}
+
+.w-25 {
+  width: 25%;
+}
+
 /* HEADER*/
 /* First Menu */
 #first-main-menu {
@@ -343,7 +351,7 @@ body {
 }
 
 .third-article .first-column {
-  display: inline-block;
+  /* display: inline-block; */
   width: 30%;
   background: #fff;
   border-radius: 10px;
@@ -357,7 +365,7 @@ body {
 }
 
 .third-article .second-column {
-  display: inline-block;
+  /* display: inline-block; */
   width: 30%;
   margin-left: 5%;
   margin-right: 5%;
@@ -374,7 +382,7 @@ body {
 
 
 .third-article .third-column {
-  display: inline-block;
+  /* display: inline-block; */
   width: 30%;
   background: #fff;
   border-radius: 10px;
@@ -428,4 +436,220 @@ body {
   margin: 60px 75px;
   margin-bottom: 0;
   padding: 10px;
+}
+
+/* Secomd Section */
+#second-section {
+  height: 800px;
+  background: #00acb5;
+}
+
+.scn-section-text {
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
+
+.scn-section-position-text {
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.scn-section-text h3 {
+  font-size: 35px;
+  margin: 30px 50px;
+}
+
+.scn-section-text p {
+  font-size: 18px;
+}
+
+.scn-section-tab {
+  margin-top: 50px;
+}
+
+.scn-section-tab .tab-one,
+.scn-section-tab .tab-two,
+.scn-section-tab .tab-tree,
+.scn-section-tab .tab-four,
+.scn-section-tab .tab-five,
+.scn-section-tab .tab-six,
+.scn-section-tab .tab-seven,
+.scn-section-tab .tab-eight {
+  text-align: center;
+  color: #fff;
+}
+
+.tab-one {
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  padding-bottom: 30px;
+}
+
+.tab-one img {
+  width: 50px;
+}
+
+.tab-one h1 {
+  font-size: 55px;
+  padding: 10px 0px;
+}
+
+.tab-one h1::after {
+  content: "+";
+  vertical-align: middle;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 0 5px;
+}
+
+.tab-two {
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  padding-bottom: 30px;
+}
+
+.tab-two img {
+  width: 78px;
+}
+
+.tab-two h1 {
+  font-size: 55px;
+  padding: 10px 0px;
+}
+
+.tab-two h1::after {
+  content: "+";
+  vertical-align: middle;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 0 5px;
+}
+
+.tab-tree {
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  padding-bottom: 30px;
+}
+
+.tab-tree img {
+  width: 145px;
+}
+
+.tab-tree h1 {
+  font-size: 55px;
+  padding: 10px 0px;
+}
+
+.tab-tree h1::after {
+  content: "+";
+  vertical-align: middle;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 0 5px;
+}
+
+.tab-four {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 30px;
+}
+
+.tab-four img {
+  width: 123px;
+}
+
+.tab-four h1 {
+  font-size: 55px;
+  padding: 10px 0px;
+}
+
+.tab-five {
+  border-right: 1px solid #fff;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.tab-five img {
+  width: 75px;
+}
+
+.tab-five h1 {
+  font-size: 55px;
+  padding: 10px 0px;
+}
+
+.tab-five h1::after {
+  content: "+";
+  vertical-align: middle;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 0 5px;
+}
+
+.tab-six {
+  border-right: 1px solid #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.tab-six img {
+  width: 30px;
+}
+
+.tab-six h1 {
+  font-size: 55px;
+  padding: 10px 0px;
+}
+
+.tab-six h1::after {
+  content: "+";
+  vertical-align: middle;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 0 5px;
+}
+
+.tab-seven {
+  border-right: 1px solid #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.tab-seven img {
+  width: 30px;
+}
+
+.tab-seven h1 {
+  font-size: 55px;
+  padding: 10px 0px;
+}
+
+.tab-seven h1::after {
+  content: "+";
+  vertical-align: middle;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 0 5px;
+}
+
+.tab-eight {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.tab-eight img {
+  width: 130px;
+}
+
+.tab-eight h1 {
+  font-size: 55px;
+  padding: 10px 0px;
+}
+
+.tab-eight h1::after {
+  content: "+";
+  vertical-align: middle;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 0 5px;
 }
