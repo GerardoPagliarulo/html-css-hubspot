@@ -77,7 +77,7 @@ body {
 }
 
 .menu-language {
-  display: inline-block;
+  /* display: inline-block; */
   width: 50%;
 }
 
@@ -95,7 +95,7 @@ body {
 }
 
 .menu-search {
-  display: inline-block;
+  /* display: inline-block; */
   width: 50%;
 }
 
@@ -130,14 +130,14 @@ body {
 }
 
 .menu-logo {
-  display: inline-block;
+  /* display: inline-block; */
   width: 50%;
   line-height: 100px;
   margin-top: 9px;
 }
 
 .menu-selectors {
-  display: inline-block;
+  /* display: inline-block; */
   width: 50%;
   line-height: 100px;
   text-align: right;
