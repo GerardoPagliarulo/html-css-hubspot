@@ -470,7 +470,7 @@ body {
 
 .scn-section-tab .tab-one,
 .scn-section-tab .tab-two,
-.scn-section-tab .tab-tree,
+.scn-section-tab .tab-three,
 .scn-section-tab .tab-four,
 .scn-section-tab .tab-five,
 .scn-section-tab .tab-six,
@@ -497,7 +497,7 @@ body {
 }
 
 .tab-one h5::after {
-  content: "+";
+  content: '+';
   vertical-align: middle;
   font-size: 22px;
   font-weight: normal;
@@ -521,31 +521,31 @@ body {
 }
 
 .tab-two h5::after {
-  content: "+";
+  content: '+';
   vertical-align: middle;
   font-size: 22px;
   font-weight: normal;
   padding: 0 5px;
 }
 
-.tab-tree {
+.tab-three {
   border-bottom: 1px solid #fff;
   border-right: 1px solid #fff;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.tab-tree img {
+.tab-three img {
   width: 145px;
 }
 
-.tab-tree h5 {
+.tab-three h5 {
   font-size: 55px;
   padding: 10px 0px;
 }
 
-.tab-tree h5::after {
-  content: "+";
+.tab-three h5::after {
+  content: '+';
   vertical-align: middle;
   font-size: 22px;
   font-weight: normal;
@@ -568,7 +568,7 @@ body {
 }
 
 .tab-four h5::after {
-  content: "+";
+  content: '+';
   vertical-align: middle;
   font-size: 22px;
   font-weight: normal;
@@ -591,7 +591,7 @@ body {
 }
 
 .tab-five h5::after {
-  content: "+";
+  content: '+';
   vertical-align: middle;
   font-size: 22px;
   font-weight: normal;
@@ -614,7 +614,7 @@ body {
 }
 
 .tab-six h5::after {
-  content: "+";
+  content: '+';
   vertical-align: middle;
   font-size: 22px;
   font-weight: normal;
@@ -637,7 +637,7 @@ body {
 }
 
 .tab-seven h5::after {
-  content: "+";
+  content: '+';
   vertical-align: middle;
   font-size: 22px;
   font-weight: normal;
@@ -659,7 +659,7 @@ body {
 }
 
 .tab-eight h5::after {
-  content: "+";
+  content: '+';
   vertical-align: middle;
   font-size: 22px;
   font-weight: normal;
