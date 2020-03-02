@@ -48,9 +48,9 @@ body {
   text-align: center;
 }
 
-/* .w-50 {
+.w-50 {
   width: 50%;
-} */
+}
 
 .float {
   float: left;
@@ -671,6 +671,10 @@ body {
   height: 800px;
 }
 
+.trd-section-sponsor {
+  height: 300px;
+}
+
 .trd-section-first-cln {
   width: 30%;
   padding-right: 40px;
@@ -709,4 +713,128 @@ body {
   margin-top: 50px;
   margin-right: 40px;
   line-height: 10px;
+}
+
+.trd-section-start-growing-banner {
+  height: 500px;
+}
+.trd-section-third-cln {
+  padding-right: 120px;
+}
+
+.trd-section-third-cln h5 {
+  font-size: 35px;
+  padding-top: 50px;
+  color: #33475b;
+}
+
+.trd-section-third-cln p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #33475b;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.trd-section-third-cln p:nth-child(4) {
+  font-size: 13px;
+}
+
+.trd-section-fourth-cln {
+  text-align: right;
+}
+
+.trd-section-fourth-cln img {
+  width: 400px;
+}
+
+#footer {
+  height: 700px;
+  background: #33475b;
+}
+
+.first-part-footer {
+padding-top: 25px;
+}
+
+.first-part-footer {
+  height: 500px;
+}
+
+.footer-text-title {
+  font-size: 20px;
+  color: #fff;
+  line-height: 75px;
+}
+
+.first-part-footer div ul li {
+  list-style: none;
+  color: #cbd6e2;
+  line-height: 45px;
+  font-size: 18px;
+}
+
+.button-footer {
+  background: #fff;
+  font-size: 15px;
+  color: #33475b;
+  padding: 12px 10px;
+  opacity: 0.8;
+}
+
+.margin-button-footer {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.social-network i {
+  font-size: 25px;
+  padding-right: 17px;
+}
+
+.first-part-footer-bottom {
+  height: 50px;
+  border-bottom: 1px solid #cbd6e2;
+}
+
+.first-part-footer-bottom {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.first-part-footer-languages ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+  color: #cbd6e2;
+  padding-right: 25px;
+}
+
+.second-part-footer {
+  height: 100px;
+}
+
+.scn-part-footer-cln-one {
+  margin-top: 25px;
+  line-height: 30px;
+}
+
+.scn-part-footer-cln-one {
+  color: #cbd6e2;
+  font-size: 18px;
+}
+
+.scn-part-footer-cln-two {
+  text-align: right;
+  margin-top: 25px;
+}
+
+.scn-part-footer-cln-two a {
+  color:  #cbd6e2;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.scn-part-footer-cln-two a:nth-child(1) {
+  padding-right: 25px;
 }
