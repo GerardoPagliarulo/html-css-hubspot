@@ -512,7 +512,7 @@ body {
 }
 
 .tab-two img {
-  width: 78px;
+  width: 79px;
 }
 
 .tab-two h5 {
@@ -664,4 +664,16 @@ body {
   font-size: 22px;
   font-weight: normal;
   padding: 0 5px;
+}
+
+#third-section {
+  height: 800px;
+}
+
+.trd-section-first-clm {
+  width: 40%
+}
+
+.trd-section-secomd-clm {
+  width: 60%;
 }
