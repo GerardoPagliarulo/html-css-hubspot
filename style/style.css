@@ -673,6 +673,7 @@ body {
 
 .trd-section-first-cln {
   width: 30%;
+  padding-right: 40px;
 }
 
 .trd-section-first-cln h5 {
@@ -685,14 +686,16 @@ body {
 .trd-section-first-cln p {
   color: #33475b;
   font-size: 18px;
-  margin-left: 115px;
-  margin-right: 60px;
+  margin-left: 100px;
+  margin-right: 40px;
   line-height: 30px;
   text-align: left;
 }
 
 .trd-section-second-cln {
   width: 70%;
+  padding-left: 90px;
+  padding-top: 11px;
 }
 
 .trd-section-second-cln img {
